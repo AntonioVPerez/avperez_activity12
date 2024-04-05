@@ -54,7 +54,7 @@ function Payment(){
 
     const onSubmit = data => {
         console.log(data); // log all data
-        console.log(data); // log only fullname
+        console.log(data.fullName); // log only fullname
         // update hooks
         setDataF(dataF);
         setViewer(viewer);
